@@ -1,0 +1,38 @@
+enable-motd: false
+motd:
+  - 'Line 1'
+  - 'Line 2'
+join: '&a&l+ %player%'
+quit: '&c&l- %player%'
+chat: '&f%player%&8: &f'
+prefix: '&3SYS | '
+boardcast-title: '&m－－－－－－－－－－－－－－&e&l⟹ 伺服器公告 ⟸&r&m－－－－－－－－－－－－－－'
+message:
+  searching: '&6設定檔案中 ...'
+  created: '&a%player% 檔案設定完成。'
+  updated: '&d%player% 檔案更新完成。'
+  failed: '&c%player% 檔案設定失敗。'
+  back: '&a正在返回死亡地點。'
+  cantback: '&c您沒有死亡記錄點。'
+  bed: '&a正在返回床點。'
+  cantbed: '&c您沒有床點。'
+  playeronly: '&c此指令只有玩家可以執行。'
+  setspawn: '&a世界重生點已設定。'
+  spawn: '&a正在傳送至重生點。'
+  playeroffline: '&c%player% 目前不在線上。'
+  denied: '&c沒有權限使用此指令。'
+  msg:
+    help: '&f私密玩家 /m <玩家ID> <訊息>'
+    maxlength: '&c字數上限為 255！'
+  reply:
+    help: '&f回覆上一個私密的玩家 /r <訊息>'
+    noplayer: '&c沒有可以回覆的玩家。'
+  fly:
+    enable: '&a已啟用飛行模式。'
+    disable: '&c已關閉飛行模式。'
+data: 'data'
+SpawnLocation:
+  x: 0
+  y: 0
+  z: 0
+  world: world
